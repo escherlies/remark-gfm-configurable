@@ -1,10 +1,11 @@
 {
-  "name": "remark-gfm",
-  "version": "4.0.0",
-  "description": "remark plugin to support GFM (autolink literals, footnotes, strikethrough, tables, tasklists)",
+  "name": "remark-gfm-configurable",
+  "version": "1.0.0",
+  "description": "remark plugin to support GFM (autolink literals, footnotes, strikethrough, tables, tasklists) with configurable plugin options",
   "license": "MIT",
   "keywords": [
     "autolink",
+    "configurable",
     "footnote",
     "gfm",
     "github",
@@ -18,15 +19,21 @@
     "tasklist",
     "unified"
   ],
-  "repository": "remarkjs/remark-gfm",
-  "bugs": "https://github.com/remarkjs/remark-gfm/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escherlies/remark-gfm-configurable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/escherlies/remark-gfm-configurable/issues"
+  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/unified"
   },
-  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+  "author": "Enrico Scherlies <escherlies@pm.me>",
   "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+    "Enrico Scherlies <escherlies@pm.me>"
   ],
   "sideEffects": false,
   "type": "module",
@@ -38,8 +45,17 @@
   ],
   "dependencies": {
     "@types/mdast": "^4.0.0",
-    "mdast-util-gfm": "^3.0.0",
-    "micromark-extension-gfm": "^3.0.0",
+    "mdast-util-gfm-autolink-literal": "^2.0.1",
+    "mdast-util-gfm-footnote": "^2.0.0",
+    "mdast-util-gfm-strikethrough": "^2.0.0",
+    "mdast-util-gfm-table": "^2.0.0",
+    "mdast-util-gfm-task-list-item": "^2.0.0",
+    "micromark-extension-gfm-autolink-literal": "^2.1.0",
+    "micromark-extension-gfm-footnote": "^2.1.0",
+    "micromark-extension-gfm-strikethrough": "^2.1.0",
+    "micromark-extension-gfm-table": "^2.1.0",
+    "micromark-extension-gfm-tagfilter": "^2.0.0",
+    "micromark-extension-gfm-task-list-item": "^2.1.0",
     "remark-parse": "^11.0.0",
     "remark-stringify": "^11.0.0",
     "unified": "^11.0.0"
