@@ -1,7 +1,7 @@
 # remark-gfm-configurable
 
 [![npm version](https://badge.fury.io/js/remark-gfm-configurable.svg)](https://www.npmjs.com/package/remark-gfm-configurable)
-[![Build Status](https://github.com/your-username/remark-gfm-configurable/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/remark-gfm-configurable/actions)
+[![Build Status](https://github.com/escherlies/remark-gfm-configurable/actions/workflows/ci.yml/badge.svg)](https://github.com/escherlies/remark-gfm-configurable/actions)
 
 A fork of [remark-gfm](https://github.com/remarkjs/remark-gfm) with configurable plugin options to enable or disable specific GitHub Flavored Markdown (GFM) features.
 
@@ -171,7 +171,7 @@ interface ExtensionOptions {
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions or find a bug, please open an issue or submit a pull request on [GitHub](https://github.com/your-username/remark-gfm-configurable).
+Contributions are welcome! If you have suggestions or find a bug, please open an issue or submit a pull request on [GitHub](https://github.com/escherlies/remark-gfm-configurable).
 
 ### Development
 
@@ -180,7 +180,7 @@ To set up the development environment:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/remark-gfm-configurable.git
+   git clone https://github.com/escherlies/remark-gfm-configurable.git
    ```
 
 2. Install dependencies:
