@@ -1,10 +1,11 @@
 {
-  "name": "remark-gfm",
-  "version": "4.0.0",
-  "description": "remark plugin to support GFM (autolink literals, footnotes, strikethrough, tables, tasklists)",
+  "name": "remark-gfm-configurable",
+  "version": "1.0.0",
+  "description": "remark plugin to support GFM (autolink literals, footnotes, strikethrough, tables, tasklists) with configurable plugin options",
   "license": "MIT",
   "keywords": [
     "autolink",
+    "configurable",
     "footnote",
     "gfm",
     "github",
@@ -18,15 +19,21 @@
     "tasklist",
     "unified"
   ],
-  "repository": "remarkjs/remark-gfm",
-  "bugs": "https://github.com/remarkjs/remark-gfm/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escherlies/remark-gfm-configurable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/escherlies/remark-gfm-configurable/issues"
+  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/unified"
   },
-  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+  "author": "Enrico Scherlies <escherlies@pm.me>",
   "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+    "Enrico Scherlies <escherlies@pm.me>"
   ],
   "sideEffects": false,
   "type": "module",
