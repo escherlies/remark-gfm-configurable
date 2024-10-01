@@ -1,6 +1,5 @@
 /**
- * @typedef {import('./lib/index.js').ExtensionOptions} ExtensionOptions
- * @typedef {import('./lib/index.js').PluginOptions} PluginOptions
+ * @typedef {import('./lib/index.js').Options} Options
  */
 
 export {default} from './lib/index.js'
