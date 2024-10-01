@@ -1,6 +1,6 @@
 /**
  * @typedef {import('mdast').Root} Root
- * @typedef {import('remark-gfm').Options} Options
+ * @typedef {import('remark-gfm-configurable').Options} Options
  */
 
 import assert from 'node:assert/strict'
@@ -9,14 +9,15 @@ import process from 'node:process'
 import test from 'node:test'
 import {isHidden} from 'is-hidden'
 import {remark} from 'remark'
-import remarkGfm from 'remark-gfm'
+import remarkGfm from 'remark-gfm-configurable'
 import stringWidth from 'string-width'
 
 test('remarkGfm', async function (t) {
   await t.test('should expose the public api', async function () {
-    assert.deepEqual(Object.keys(await import('remark-gfm')).sort(), [
-      'default'
-    ])
+    assert.deepEqual(
+      Object.keys(await import('remark-gfm-configurable')).sort(),
+      ['default']
+    )
   })
 
   await t.test('should not throw if not passed options', async function () {
