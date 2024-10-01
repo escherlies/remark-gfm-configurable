@@ -5,6 +5,10 @@
 
 A fork of [remark-gfm](https://github.com/remarkjs/remark-gfm) with configurable plugin options to enable or disable specific GitHub Flavored Markdown (GFM) features.
 
+By default, [remark-gfm](https://github.com/remarkjs/remark-gfm) enables all underlying features: **autolink literals, footnotes, strikethrough, tables, and task list items**.
+
+This fork lets you configure which features are enabled by specifying them through a unified options object, offering more granular control over GitHub Flavored Markdown (GFM) features and their behavior.
+
 ## Table of Contents
 
 - [remark-gfm-configurable](#remark-gfm-configurable)
